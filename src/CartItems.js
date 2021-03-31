@@ -17,14 +17,15 @@ function CartItems({ cartItems }) {
 }
 
 const Container = styled.div`
-  height: 300px;
   flex: 0.8;
   padding: 20px;
   background-color: white;
   margin-right: 18px;
 `;
 
-const Title = styled.div``;
+const Title = styled.h1`
+  margin-bottom: 8px;
+`;
 
 const ItemsContainer = styled.div``;
 
