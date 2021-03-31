@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import SearchIcon from "@material-ui/icons/Search";
-import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
-import { Link } from "react-router-dom";
+import React from 'react';
+import styled from 'styled-components';
+import SearchIcon from '@material-ui/icons/Search';
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -12,9 +12,9 @@ function Header() {
         <Link to="/">
           <img
             src={
-              "https://mikekitko.com/wp-content/uploads/2019/10/amazon-logo-white-768x232.png"
+              'https://mikekitko.com/wp-content/uploads/2019/10/amazon-logo-white-768x232.png'
             }
-            alt="Amazon logo"
+            alt="Amazon Logo"
           />
         </Link>
       </HeaderLogo>
@@ -136,6 +136,8 @@ const HeaderOptionCart = styled.div`
 
 const CartCount = styled.div`
   padding-left: 4px;
+  font-weight: 700;
+  color: #f08804;
 `;
 
 export default Header;
